@@ -6,16 +6,16 @@ const currentActive = 0;
 
 nextBtn.forEach(element => {
     element.addEventListener('click', () =>{
-        if(element.classlist.contains('currentActive')){
-            currentActive++
+        if(element.classlist.contains('Active')){
+            Active++
         }
         // else if(currentActive => circles[]);
     })
 
     prevBtn.forEach(element => {
         element.addEventListener('click', () =>{
-            if(element.classlist.contains('currentActive')){
-                currentActive++
+            if(element.classlist.contains('Active')){
+                Active++
             }
         })
     })
